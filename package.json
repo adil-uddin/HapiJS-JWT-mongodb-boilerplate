@@ -1,0 +1,32 @@
+{
+  "name": "hapi-boilerplate",
+  "version": "0.0.1",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "config": "^1.19.0",
+    "good": "6.6.0",
+    "good-console": "5.3.1",
+    "good-file": "5.1.2",
+    "handlebars": "^4.0.5",
+    "hapi": "^12.1.0",
+    "hapi-auth-jwt2": "^5.3.1",
+    "hapi-auto-routes": "^1.0.3",
+    "hapi-swagger": "4.1.0",
+    "inert": "^3.2.0",
+    "joi": "^7.1.0",
+    "jsonwebtoken": "^5.5.4",
+    "lodash": "^4.16.1",
+    "moment": "^2.12.0",
+    "mongodb": "^2.1.3",
+    "mongoload": "^0.1.0",
+    "mongoose": "^4.3.5",
+    "mongoose-timestamp": "^0.5.0",
+    "vision": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Adil",
+  "license": "MIT",
+  "description": "Boilerplate for hapi with authentication using JWT and mongodb."
+}
