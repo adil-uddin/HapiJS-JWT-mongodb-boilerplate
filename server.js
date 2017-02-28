@@ -55,7 +55,7 @@ function startServer() {
       'register': require('hapi-swagger'),
       'options': {
         info: {
-          'title': 'IPM-Info API Documentation',
+          'title': 'API Documentation',
           'contact': {
             'name': 'Adil'
           },
