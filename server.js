@@ -24,17 +24,17 @@ mongoload.bind(mongoose).load({
 });
 
 db.on('error', function () {
-  server.log('error', 'Connection to db failed!');
+  console.error('Connection to db failed!');
   process.exit(0);
 });
 
 db.on('connected', function callback() {
-  server.log('info', 'Connected to db...');
+  console.log('Connected to db...');
   startServer();
 });
 
 db.on('disconnected', function (err) {
-  server.log('error', 'Connection teminated to db');
+  console.error('Connection teminated to db');
   process.exit(0);
 });
 
@@ -150,7 +150,7 @@ function startServer() {
       });
 
       server.start(function () {
-        server.log('info', 'Server started... at: ' + server.info.uri);
+        console.log('Server started... at: ' + server.info.uri);
       });
     }
   });
